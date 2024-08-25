@@ -1,6 +1,6 @@
 # Quando vamos criar uma imagem, usamos uma imagem base que já tenha uma estrutura inicial de sistema de arquivos e as dependências necessárias.
 # Aqui, escolhemos uma imagem oficial do Node.js, que já possui o Node.js e o npm instalados.
-FROM node
+FROM node:22.6.0
 
 # Define o diretório de trabalho dentro do contêiner. Todas as operações subsequentes serão executadas dentro deste diretório.
 # Isso ajuda a organizar os arquivos da aplicação e isolar o ambiente.
